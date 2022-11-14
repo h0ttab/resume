@@ -1,0 +1,421 @@
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Regular.woff2);
+}
+
+
+/* ----------General elements-------------------- */
+
+
+body {
+    background-color: rgb(255, 255, 240);
+}
+
+.container {
+    box-sizing: border-box;
+    font-size: 0;
+    font-family: Roboto, sans-serif;
+    width: 1000px;
+    margin: 0 auto 0;
+    border: 3px solid rgba(0, 0, 0, 0.5);
+    background-image: url(imgs/background.png);
+    background-repeat: no-repeat;
+}
+
+/* ---------------------------------------------- */
+
+
+
+/* -----------Common elements-------------------- */
+
+
+.yellow_line {
+    width: 100%;
+    height: 3px;
+    background-color: rgb(251, 216, 84);
+    box-shadow: 0 0 4px yellow;
+    border-radius: 2px;
+    margin-top: 30px;
+}
+
+.h2 {
+    font-size: 25px;
+    margin: 0 auto 30px;
+}
+
+
+/* ---------------------------------------------- */
+
+/* -----------Header elements-------------------- */
+
+
+.header {
+    width: 1000px;
+    height: 350px;
+}
+
+.header > div {
+    display: inline-block;
+}
+
+.avatar {
+    height: 350px;
+    width: 40%;
+    text-align: center;
+}
+
+.avatar img {
+    margin: auto;
+    border-left: 32px solid white;
+    border-bottom: 32px solid white;
+    border-right: 32px solid white;
+    border-bottom-left-radius: 195px;
+    border-bottom-right-radius: 195px;
+    height: 100%;
+}
+
+.name {
+    vertical-align: top;
+    height: 350px;
+    width: 60%;
+    font-size: 20px;
+}
+
+.name_text {
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 40%;
+}
+
+.name_text h1 {
+    margin: 0 0 15px;
+    font-weight: bold;
+}
+
+.name_text h2 {
+    margin: 0;
+    font-weight: normal;
+}
+
+
+/* -------------------------------------------- */
+
+/* ----Main content section general elements--- */
+
+
+.section {
+    width: 1000px;
+}
+
+.section > div {
+    display: inline-block;
+}
+
+.blocks_left {
+    height: 900px;
+    width: 40%;
+    vertical-align: top;
+}
+
+.blocks_left > div {
+    height: 300px;
+}
+
+.blocks_right {
+    height: 900px;
+    width: 600px;
+    vertical-align: top;
+}
+
+#block_2_right {
+    height: 225px;
+}
+
+#block_3_right {
+    height: 225px;
+}
+
+#block_1_right {
+    height: 450px;
+}
+
+/* ------------------------------------------ */
+
+
+/* --------Left blocks common styles--------- */
+
+.contacts, .education, .socials {
+    position: relative;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 280px;
+    height: 70%;
+}
+
+.skills_header, .experience_header, .interests_header {
+    margin-left: 50px;
+    padding-top: 15px;
+}
+
+/* ------------------------------------------- */
+
+/* --------Right blocks common styles--------- */
+
+
+.block_2_right h2, .block_3_right h2 {
+    margin-bottom: 15px;
+}
+
+/* ------------------------------------------- */
+
+
+/* -------------Contacts elements------------- */
+
+.location {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.location_icon {
+    width: 30px;
+    height: 48px;
+    display: inline-block;
+    background-color: rgb(251, 216, 84);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: 20px;
+}
+
+.location_icon img {
+    position: relative;
+    top: 6px;
+    left: 4px;
+    width: 22px;
+    margin: 0;
+}
+
+.location_text {
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    display: inline-block;
+    width: 200px;
+    position: relative;
+    top: 6px;
+}
+
+.contacts_other {
+    height: 90px;
+    width: 280px;
+}
+
+.contacts_other_icons {
+    padding-top: 5px;
+    margin-top: 10px;
+    display: inline-block;
+    width: 30px;
+    height: 85px;
+    background-color: rgb(251, 216, 84);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: 20px;
+}
+
+.contacts_other_icons img {
+    width: 20px;
+    margin-left: 5px;
+    margin-bottom: 8px;
+}
+
+.contacts_text {
+    position: relative;
+    top: -12px;
+    display: inline-block;
+    height: 80px;
+    width: 200px;
+    font-weight: 500;
+}
+
+.contact_info {
+    margin: 0 auto 7px;
+    font-size: 18px;
+}
+
+/* ------------------------------------------- */
+
+
+
+/* -------------Education elements------------- */
+
+.education_description {
+    margin: 0 auto 7px;
+    font-size: 18px;
+}
+
+/* ------------------------------------------- */
+
+/* -------------Socials elements-------------- */
+
+.social_media {
+    margin: 0;
+    display: inline-block;
+}
+
+#yl_socials {
+    display: inline-block;
+    height: 130px;
+    width: 5px;
+    background-color: rgb(251, 216, 84);
+    box-shadow: 0 0 4px yellow;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.socials_png {
+    display: inline-block;
+    width: 32px;
+    margin-right: 10px;
+}
+
+.socials_text {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    top: -10px;
+}
+
+.fcb, .inst, .twit {
+    margin-bottom: 10px;
+}
+
+/* ------------------------------------------- */
+
+
+/* -------------Experience elements-------------- */
+
+.experience_1 {
+    width: 500px;
+    height: 170px;
+    margin: 0 50px 0;
+}
+
+.experience_2 {
+    width: 500px;
+    height: 170px;
+    margin: 0 50px 20px;
+}
+
+.experience_title {
+    margin-bottom: 0; 
+    margin-top: 10px; 
+    font-size: 18px; 
+    font-weight: 600;
+}
+
+#yl_experience_top, #yl_experience_bottom {
+    display: inline-block;
+    height: 80px;
+    width: 5px;
+    background-color: rgb(251, 216, 84);
+    box-shadow: 0 0 4px yellow;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.exp_description {
+    font-size: 16px;
+    display: inline-block;
+    width: 450px;
+    position: relative;
+    top: -15px;
+}
+
+/* ------------------------------------------- */
+
+
+/* -------------Skills elements-------------- */
+
+.skills {
+    width: 600px;
+    height: 160px;
+    margin-left: 50px;
+}
+
+.skill {
+    vertical-align: top;
+    display: inline-block;
+    height: 40px;
+    width: 270px;
+}
+
+.skill_level {
+    display: inline-block;
+}
+
+.skill_name {
+    position: relative;
+    top: -15px;
+    left: 5px;
+    margin: 0;
+    display: inline-block;
+    height: 25px;
+    width: 125px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* ------------------------------------------- */
+
+
+/* -------------Interests elements-------------- */
+
+.interests_header {
+    position: relative;
+    top: 50px;
+}
+
+.interests {
+    width: 550px;
+    height: 40px;
+    margin-left: 42px;
+    margin-top: 90px;
+}
+
+.interest_3, .interest_4 {
+    display: inline-block;
+    height: 40px;
+    width: 135px;
+}
+
+.interest_1 {
+    display: inline-block;
+    height: 40px;
+    width: 120px;
+}
+
+.interest_2 {
+    display: inline-block;
+    height: 40px;
+    width: 140px;
+}
+
+.interest_img {
+    height: 40px;
+    width: 25px;
+}
+
+.interest_description {
+    font-size: 16px;
+    position: relative;
+    top: -14px;
+}
+/* ------------------------------------------- */
